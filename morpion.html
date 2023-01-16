@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="morpion.css">
+</head>
+
+<body>
+    <div id="gameEnd">
+        <h1 class="white" id="endGameStatus">...</h1>
+        <input type="submit" value="Recommencer" id="reloadGame" onclick="reloadGame()">
+      </div>
+
+  
+      <!--On génère les cells pour le morpion-->
+      <div class="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+      </div>
+
+      <div id="gameStats">
+        <h1 class="black" id="gameStatus"></h1>
+    </div>  
+    <script src="morpion.js"></script>
+</body>
+</html>
